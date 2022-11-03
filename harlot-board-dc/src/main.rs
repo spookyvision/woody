@@ -60,7 +60,6 @@ const SEGMENTS_FILE: &'static str = "segments.json";
 fn main() -> anyhow::Result<()> {
     esp_idf_sys::link_patches();
     esp_idf_svc::log::EspLogger::initialize_default();
-    let app_config = CONFIG;
 
     let mut now = 0;
     let sys_start = Instant::now();
