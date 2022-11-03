@@ -1,0 +1,6 @@
+/target
+/.vscode
+/media/mp4
+
+# please.
+.DS_Store
